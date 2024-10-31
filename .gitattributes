@@ -1,0 +1,7 @@
+# Force text files to use LF endings
+*.txt text eol=lf
+*.sh text eol=lf
+
+# Force Windows-specific files to use CRLF endings
+*.bat text eol=crlf
+

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<title>Trang Chủ</title>
+</head>
+<body>
+    <header th:replace="fragments/header :: header"></header>
+    <main>
+        <div layout:fragment="content">
+            <!-- Content will be rendered here -->
+        </div>
+    </main>
+    <footer th:replace="fragments/footer :: footer"></footer>
+</body>
+</html>
